@@ -32,6 +32,7 @@ public:
         tok = t;
         pushedBack = true;
     }
+
 } ParserToken;
 
 ParseTree *

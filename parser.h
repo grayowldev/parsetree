@@ -10,6 +10,8 @@
 
 #include <iostream>
 using std::istream;
+using std::cout;
+using std::endl;
 
 #include <string>
 using std::string;
@@ -37,6 +39,16 @@ public:
     virtual TypeForNode GetType() const { return ERROR_TYPE; }
     virtual int GetIntValue() const { throw "no integer value"; }
     virtual string GetStringValue() const { throw "no string value"; }
+
+    static void traversl(ParseTree* RootNode){
+        cout << "L" << endl;
+        traversl(RootNode->getLeft());
+        cout << "u" << endl;
+        cout << "R" << endl;
+        traversl(RootNode->getRight());
+        cout << "U" << endl;
+        cout << "N" << endl;
+    }
 };
 
 class StatementList : public ParseTree {

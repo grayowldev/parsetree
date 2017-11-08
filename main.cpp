@@ -54,17 +54,20 @@ main(int argc, char *argv[])
         }
     }
 
-/*	ParseTree *tree = Prog( &cin );
+    ParseTree *tree = Prog( &cin );
 
 	if( tree == 0 ) {
 		// there was some kind of parse error
 		return 1;
-	}*/
+	}
+    ParseTree::traversl(tree);
 
     cout << "Total number of identifiers: "<< ID_Counter << endl;
     cout << "Total number of set: "<< SET_Counter << endl;
     cout << "Total number of +: "<< PLUS_Counter << endl;
     cout << "Total number of *: "<< STAR_Counter << endl;
+
+    infile.close();
 
 	return 0;
 }
