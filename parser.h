@@ -41,12 +41,16 @@ public:
     virtual string GetStringValue() const { throw "no string value"; }
 
     static void traversl(ParseTree* RootNode){
-        cout << "L" << endl;
-        traversl(RootNode->getLeft());
-        cout << "u" << endl;
-        cout << "R" << endl;
-        traversl(RootNode->getRight());
-        cout << "U" << endl;
+        if (RootNode->getLeft()){
+            cout << "L" << endl;
+            traversl(RootNode->getLeft());
+            cout << "u" << endl;
+        }
+        if (RootNode->getLeft()){
+            cout << "R" << endl;
+            traversl(RootNode->getRight());
+            cout << "U" << endl;
+        }
         cout << "N" << endl;
     }
 };
