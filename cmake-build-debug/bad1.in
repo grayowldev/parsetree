@@ -1,0 +1,9 @@
+// this file has a bad token in it; make sure you handle that
+
+int x;
+string y;
+
+set x 0 - 400;
+set y "a funky string
+";
+println x;

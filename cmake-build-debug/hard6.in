@@ -1,0 +1,9 @@
+int a;
+
+int b;
+
+set c 100;
+
+set a a + c;
+
+set b "yikes";

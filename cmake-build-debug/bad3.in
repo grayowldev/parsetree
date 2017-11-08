@@ -1,0 +1,9 @@
+int foo;
+int bar;
+
+print foo;
+print bar;
+
+print + foo bar;
+print foo bar;
+print foo bar -;

@@ -1,0 +1,11 @@
+int x;
+int y;
+
+set x 4;
+set y 0 - 4;
+
+print x + y;
+print "  ";
+println x - y;
+
+print 64 / 2 / 2 /2 /2/ 2/2;

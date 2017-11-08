@@ -1,0 +1,4 @@
+int x,y;
+
+set x 2;
+set y 3;

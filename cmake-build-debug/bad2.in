@@ -1,0 +1,5 @@
+int xyz;
+
+set xyz 2 + 3 * 9;
+set xyz 2 * 3 + 9;
+set xyz 2 + + 3 + 9;

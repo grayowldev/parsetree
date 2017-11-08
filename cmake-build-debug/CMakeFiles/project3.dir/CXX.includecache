@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/GrayOwl/CLionProjects/project3/helper.cpp
+cctype
+-
+map
+-
+lexer.h
+/Users/GrayOwl/CLionProjects/project3/lexer.h
+
+/Users/GrayOwl/CLionProjects/project3/lexer.h
+string
+-
+iostream
+-
+
+/Users/GrayOwl/CLionProjects/project3/main.cpp
+iostream
+-
+string
+-
+fstream
+-
+parser.h
+/Users/GrayOwl/CLionProjects/project3/parser.h
+lexer.h
+/Users/GrayOwl/CLionProjects/project3/lexer.h
+
+/Users/GrayOwl/CLionProjects/project3/parser.h
+iostream
+-
+string
+-
+lexer.h
+/Users/GrayOwl/CLionProjects/project3/lexer.h
+
